@@ -30,7 +30,7 @@
 //#define SX126X_MISO 19  // EBYTE module's MISO pin
 //#define SX126X_RESET 23 // EBYTE module's NRST pin
 //#define SX126X_BUSY 32  // EBYTE module's BUSY pin
-//#define SX126X_DIO1 33  // EBYTE module's DIO1 pin
+#define SX126X_DIO1 33  // EBYTE module's DIO1 pin
 
 //#define SX126X_TXEN 13 // Schematic connects EBYTE module's TXEN pin to MCU
 //#define SX126X_RXEN 14 // Schematic connects EBYTE module's RXEN pin to MCU
@@ -39,7 +39,7 @@
 //#define LORA_SCK SX126X_SCK     // Compatibility with variant file configuration structure
 //#define LORA_MOSI SX126X_MOSI   // Compatibility with variant file configuration structure
 //#define LORA_MISO SX126X_MISO   // Compatibility with variant file configuration structure
-//#define LORA_DIO1 SX126X_DIO1   // Compatibility with variant file configuration structure
+#define LORA_DIO1 SX126X_DIO1   // Compatibility with variant file configuration structure
 //#define LORA_TXEN SX126X_TXEN   // Compatibility with variant file configuration structure
 //#define LORA_RXEN SX126X_RXEN   // Compatibility with variant file configuration structure
 //#define LORA_RESET SX126X_RESET // Compatibility with variant file configuration structure
