@@ -18,11 +18,11 @@
 #define LED_POWER 2         // add status LED (compatible with core-pcb and DIY targets)
 
 // Radio
-#define USE_SX1262 // E22-900M30S uses SX1262
-#define USE_SX1268 // E22-400M30S uses SX1268
-#define SX126X_MAX_POWER                                                                                                         \
+//#define USE_SX1262 // E22-900M30S uses SX1262
+//#define USE_SX1268 // E22-400M30S uses SX1268
+//#define SX126X_MAX_POWER                                                                                                         \
     22 // Outputting 22dBm from SX1262 results in ~30dBm E22-900M30S output (module only uses last stage of the YP2233W PA)
-#define SX126X_DIO3_TCXO_VOLTAGE 1.8 // E22 series TCXO reference voltage is 1.8V
+//#define SX126X_DIO3_TCXO_VOLTAGE 1.8 // E22 series TCXO reference voltage is 1.8V
 
 //#define SX126X_CS 18    // EBYTE module's NSS pin
 //#define SX126X_SCK 5    // EBYTE module's SCK pin
@@ -35,15 +35,15 @@
 //#define SX126X_TXEN 13 // Schematic connects EBYTE module's TXEN pin to MCU
 //#define SX126X_RXEN 14 // Schematic connects EBYTE module's RXEN pin to MCU
 
-#define LORA_CS SX126X_CS       // Compatibility with variant file configuration structure
-#define LORA_SCK SX126X_SCK     // Compatibility with variant file configuration structure
-#define LORA_MOSI SX126X_MOSI   // Compatibility with variant file configuration structure
-#define LORA_MISO SX126X_MISO   // Compatibility with variant file configuration structure
-#define LORA_DIO1 SX126X_DIO1   // Compatibility with variant file configuration structure
-#define LORA_TXEN SX126X_TXEN   // Compatibility with variant file configuration structure
-#define LORA_RXEN SX126X_RXEN   // Compatibility with variant file configuration structure
-#define LORA_RESET SX126X_RESET // Compatibility with variant file configuration structure
-#define LORA_DIO2 SX126X_BUSY   // Compatibility with variant file configuration structure
+//#define LORA_CS SX126X_CS       // Compatibility with variant file configuration structure
+//#define LORA_SCK SX126X_SCK     // Compatibility with variant file configuration structure
+//#define LORA_MOSI SX126X_MOSI   // Compatibility with variant file configuration structure
+//#define LORA_MISO SX126X_MISO   // Compatibility with variant file configuration structure
+//#define LORA_DIO1 SX126X_DIO1   // Compatibility with variant file configuration structure
+//#define LORA_TXEN SX126X_TXEN   // Compatibility with variant file configuration structure
+//#define LORA_RXEN SX126X_RXEN   // Compatibility with variant file configuration structure
+//#define LORA_RESET SX126X_RESET // Compatibility with variant file configuration structure
+//#define LORA_DIO2 SX126X_BUSY   // Compatibility with variant file configuration structure
 
 #define USE_RF95
 #define USE_SX1278
