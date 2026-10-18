@@ -11,5 +11,6 @@
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell"
   },
-  "C_Cpp.default.compilerPath": "C:/Users/rajms/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe"
+  "C_Cpp.default.compilerPath": "C:/Users/rajms/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe",
+  "cmake.sourceDirectory": "C:/Users/rajms/Documents/firmware/.dummy"
 }
