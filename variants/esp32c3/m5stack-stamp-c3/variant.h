@@ -1,13 +1,13 @@
-#define I2C_SDA 1
-#define I2C_SCL 0
+#define I2C_SDA 2
+#define I2C_SCL 3
 
-#define BUTTON_PIN 3 // M5Stack STAMP C3 built in button
+#define BUTTON_PIN 9 // M5Stack STAMP C3 built in button
 #define BUTTON_NEED_PULLUP
 
-// #define HAS_SCREEN 0
-#define HAS_GPS 0
-#undef GPS_RX_PIN
-#undef GPS_TX_PIN
+#define HAS_SCREEN 1
+//#define HAS_GPS 0
+//#undef GPS_RX_PIN
+//#undef GPS_TX_PIN
 
 #undef LORA_SCK
 #undef LORA_MISO
@@ -17,12 +17,13 @@
 // Adafruit RFM95W OK
 // https://www.adafruit.com/product/3072
 #define USE_RF95
+#define USE_SX1278
 #define LORA_SCK 4
 #define LORA_MISO 5
 #define LORA_MOSI 6
 #define LORA_CS 7
-#define LORA_DIO0 10
-#define LORA_RESET 8
+#define LORA_DIO0 0
+#define LORA_RESET 10
 #define LORA_DIO1 RADIOLIB_NC
 #define LORA_DIO2 RADIOLIB_NC
 
